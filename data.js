@@ -129,6 +129,14 @@ const courseData = {
             "synonyms": "Accelerate, hasten"
         },
         {
+            "word": "Indifferent to",
+            "type": "adj",
+            "tr": "İlgisiz, kayıtsız",
+            "example": "Why don't you vote - how can you be so indifferent?",
+            "exampleTr": "Neden oy vermiyorsun? Nasıl bu kadar duyarsız olabilirsin?",
+            "synonyms": "Uninterested"
+        },
+        {
             "word": "Quotation",
             "type": "n",
             "tr": "Alıntılama, alıntı yapma, aktarma",
@@ -193,6 +201,22 @@ const courseData = {
             "example": "Her drink has been laced with a deadly poison.",
             "exampleTr": "İçeceğine öldürücü bir zehir katılmış.",
             "synonyms": "Venom, toxin"
+        },
+        {
+            "word": "Susceptible to",
+            "type": "adj",
+            "tr": "Hassas, duyarlı, kolay mikrop kapabilen",
+            "example": "These plants are particularly susceptible to frost.",
+            "exampleTr": "Bu bitkiler donmaya karşı aşırı hassastır.",
+            "synonyms": "Sensitive, vulnerable, fragile"
+        },
+        {
+            "word": "Content with",
+            "type": "adj",
+            "tr": "Hoşnut, memnun",
+            "example": "He seems fairly content with his life.",
+            "exampleTr": "Hayatından oldukça memnun görünüyor.",
+            "synonyms": "Satisfied, pleased, contended"
         },
         {
             "word": "Specify",
@@ -331,6 +355,14 @@ const courseData = {
             "example": "The annihilation of the city by the bomb will never be forgotten.",
             "exampleTr": "Şehrin bombadan dolayı yok olması hiç unutulmayacak.",
             "synonyms": "Extermination, eradication, destruction"
+        },
+        {
+            "word": "Compete with / against",
+            "type": "v",
+            "tr": "Yarışmak, mücadele içinde olmak",
+            "example": "Kangaroos compete with sheep for sparse supplies of food and water.",
+            "exampleTr": "Kangurular az miktardaki su ve yiyecek kaynakları için koyunlarla rekabet eder.",
+            "synonyms": "Race"
         },
         {
             "word": "Consolidate",
@@ -649,6 +681,14 @@ const courseData = {
             "synonyms": "Attack, invasion, charge, agression"
         },
         {
+            "word": "Devoid of",
+            "type": "adj",
+            "tr": "Yoksun",
+            "example": "Their apartment is devoid of all comforts.",
+            "exampleTr": "Onların dairesi her türlü konfordan yoksun.",
+            "synonyms": "Lacking"
+        },
+        {
             "word": "Compulsory",
             "type": "adj",
             "tr": "Zorunlu",
@@ -965,6 +1005,14 @@ const courseData = {
             "synonyms": "Reduce, decrease, abate, lessen"
         },
         {
+            "word": "Pros and Cons",
+            "type": "n",
+            "tr": "Artılar ve eksiler",
+            "example": "We're just weighing up the pros and cons of moving to a bigger house.",
+            "exampleTr": "Daha büyük bir eve taşınmanın artı ve eksilerini değerlendiriyoruz.",
+            "synonyms": "Advantages and disadvantages"
+        },  
+        {
             "word": "Credible",
             "type": "adj",
             "tr": "İnanılabilir, inanılır",
@@ -1119,6 +1167,30 @@ const courseData = {
             "synonyms": "Inherent, inborn, basic"
         },
         {
+            "word": "Deduce from",
+            "type": "v",
+            "tr": "Çıkarım yapmak, sonucuna varmak",
+            "example": "The police have deduced that he must have left his apartment yesterday evening.",
+            "exampleTr": "Polisler onun dün akşam evden çıkmış olduğu sonucuna vardı.",
+            "synonyms": "Infer from"
+        },
+        {
+            "word": "Accustomed to",
+            "type": "v",
+            "tr": "Alışkın olmak, alıştırmak",
+            "example": "The army accustomed him to discipline.",
+            "exampleTr": "Askerlik onu disipline alıştırdı.",
+            "synonyms": "Be used to, be addicted to"
+        },
+        {
+            "word": "Arise from",
+            "type": "v",
+            "tr": "-den doğmak, kaynaklanmak",
+            "example": "Are there any matters arising from the last meeting?",
+            "exampleTr": "Son toplantıdan ortaya çıkan herhangi bir problem var mı?",
+            "synonyms": "Originate from, proceed, spring, result from, emerge from"
+        },
+        {
             "word": "Fatal",
             "type": "adj",
             "tr": "Ölümcül",
@@ -1255,6 +1327,30 @@ const courseData = {
             "example": "The council will be convening on the morning of the 25th.",
             "exampleTr": "Konsey ayın 25’i sabahı toplanacak.",
             "synonyms": "Meet, assemble"
+        },
+        {
+            "word": "Affiliate with",
+            "type": "v",
+            "tr": "Bağlamak, ilişkilendirmek, ilişki içinde olmak",
+            "example": "The school is affiliated with a national association.",
+            "exampleTr": "Okul ulusal bir kuruluş ile bağlantılı.",
+            "synonyms": "Associate, connect, incorporate"
+        },
+        {
+            "word": "Coincide with",
+            "type": "v",
+            "tr": "Tesadüfen kesişmek, uyuşmak",
+            "example": "Our views coincide on a range of subjects.",
+            "exampleTr": "Birçok konuda fikirlerimiz uyuşuyor.",
+            "synonyms": "Match, correspond, agree"
+        },
+        {
+            "word": "Damage",
+            "type": "v/n",
+            "tr": "Zarar, ziyan görmek",
+            "example": "Many buildings were badly damaged during the war.",
+            "exampleTr": "Savaş esnasında birçok bina ciddi hasar gördü.",
+            "synonyms": "Harm, injury"
         },
         {
             "word": "Enormous",
@@ -1395,6 +1491,22 @@ const courseData = {
             "synonyms": "Trouble, problem"
         },
         {
+            "word": "Dispose of",
+            "type": "v",
+            "tr": "Atmak, kurtulmak, yenmek",
+            "example": "It took a mere five minutes for the world champion to dispose of his opponent",
+            "exampleTr": "Dünya şampiyonunun rakibini yenmesi sadece 5 dakika sürdü.",
+            "synonyms": "Throw out, get rid of, discard"
+        },
+        {
+            "word": "Collaborate with",
+            "type": "v",
+            "tr": "İşbirliği yapmak, beraber çalışmak",
+            "example": "Two writers collaborated on the script for the film.",
+            "exampleTr": "Film senaryosu için iki yazar birlikte çalıştı.",
+            "synonyms": "Work together, cooperate"
+        },
+        {
             "word": "Nurture",
             "type": "v",
             "tr": "Bakmak, beslemek, geliştirmek",
@@ -1531,6 +1643,14 @@ const courseData = {
             "example": "They have designed a bridge to withstand earthquakes.",
             "exampleTr": "Depreme dayanabilecek bir köprü tasarladılar.",
             "synonyms": "Stand against, resist, oppose"
+        },
+        {
+            "word": "Rebel against",
+            "type": "v",
+            "tr": "Ayaklanmak, isyan etmek, karşı gelmek",
+            "example": "The people rebelled against the new government.",
+            "exampleTr": "İnsanlar yeni hükümete karşı ayaklandılar.",
+            "synonyms": "Revolt, rise up"
         },
         {
             "word": "Rival",
@@ -1685,6 +1805,22 @@ const courseData = {
             "example": "Their products are of high quality.",
             "exampleTr": "Onların ürünleri çok yüksek kalitededir.",
             "synonyms": "Characteristic, property, excellence"
+        },
+        {
+            "word": "Gaze at",
+            "type": "v",
+            "tr": "Gözünü dikip bakmak, seyretmek",
+            "example": "He spends hours gazing out of the window when he should be working.",
+            "exampleTr": "Çalışması gerekirken camdan dışarı bakarak saatler harcıyor.",
+            "synonyms": "Stare, look"
+        },
+        {
+            "word": "Associate with",
+            "type": "v",
+            "tr": "İlişkilendirmek, bağlantı kurmak",
+            "example": "Most people associate this brand with good quality.",
+            "exampleTr": "Birçok kişi bu markayı iyi kalite ile bir tutar (ilişkilendirir).",
+            "synonyms": "Connect, relate, link, join, combine"
         },
         {
             "word": "Plain",
@@ -2189,6 +2325,14 @@ const courseData = {
             "synonyms": "Force, urge"
         },
         {
+            "word": "Concern with",
+            "type": "v",
+            "tr": "İlgilenmek, ilgili olmak",
+            "example": "You had better not concern yourself with my problems.",
+            "exampleTr": "Benim problemlerimle ilgilenmesen iyi olur.",
+            "synonyms": "Be related to/with, be interested in"
+        },
+        {
             "word": "Concession",
             "type": "n",
             "tr": "İmtiyaz, hak, ödün, taviz",
@@ -2343,6 +2487,14 @@ const courseData = {
             "synonyms": "Incredible, fantastic, unbelievable"
         },
         {
+            "word": "Yield to / in",
+            "type": "v",
+            "tr": "Boyun eğmek, teslim olmak",
+            "example": "Despite renewed pressure to give up the occupied territory, they will not yield.",
+            "exampleTr": "İşgal ettikleri bölgeden vazgeçmeleri için yeniden başlayan baskılara ragmen boyun eğmeyecekler.",
+            "synonyms": "Give in to, accept"
+        },
+        {
             "word": "Ingenious",
             "type": "adj",
             "tr": "Hünerli, marifetli, akıllı",
@@ -2487,6 +2639,14 @@ const courseData = {
             "example": "She was confronted by a man wielding a knife.",
             "exampleTr": "Bıçaklı bir adamla karşı karşıya geldi.",
             "synonyms": "Employ, exercise, use, have"
+        },
+        {
+            "word": "Range from...to",
+            "type": "v",
+            "tr": "Arasında farklılık göstermek",
+            "example": "Prices range between $50 and $250.",
+            "exampleTr": "Fiyatlar 50 ve 250 dolar arasında değişmektedir.",
+            "synonyms": "Vary"
         },
         {
             "word": "Verdict",
@@ -2951,6 +3111,30 @@ const courseData = {
             "synonyms": "Related, pertinent"
         },
         {
+            "word": "Refrain from",
+            "type": "v",
+            "tr": "-den kaçınmak, -den çekinmek",
+            "example": "We refrained from talking until we knew that the room was safe.",
+            "exampleTr": "Odanın güvenli olduğuna kanaat getirene kadar konuşmaktan kaçındık.",
+            "synonyms": "Abstain from, avoid doing sth."
+        },
+        {
+            "word": "Culminate in",
+            "type": "v",
+            "tr": "Zirveye ulaşmak, son bulmak, ile sonuçlanmak",
+            "example": "Their many years of research have finally culminated in a cure for the disease.",
+            "exampleTr": "Onların yıllar süren araştırması sonunda hastalığa bir tedavi bulunmasıyla sonuçlandı.",
+            "synonyms": "Reach the top, finalize"
+        },
+        {
+            "word": "Tend to",
+            "type": "v",
+            "tr": "Eğilimli olmak",
+            "example": "We tend to get cold winters and warm, dry summers in this part of the country.",
+            "exampleTr": "Ülkenin bu bölgesinde genellikle soğuk kışlar ve sıcak, kurak yazlar yaşanır.",
+            "synonyms": "Be inclined to, apt to"
+        },
+        {
             "word": "Legacy",
             "type": "n",
             "tr": "Miras",
@@ -3105,6 +3289,22 @@ const courseData = {
             "synonyms": "Crash, strike, bump into"
         },
         {
+            "word": "Emerge from",
+            "type": "v",
+            "tr": "-den çıkmak, -den gelişmek, -den ortaya çıkmak",
+            "example": "These problems emerge from unknown factors.",
+            "exampleTr": "Bu problemler bilinmeyen faktörlerden ortaya çıkıyor.",
+            "synonyms": "Develope out of, arise from, result from"
+        },
+        {
+            "word": "Lack of",
+            "type": "n",
+            "tr": "Yoksun olma, eksiklik",
+            "example": "Her only problem is lack of confidence.",
+            "exampleTr": "Onun tek problemi kendine güveninin olmaması.",
+            "synonyms": "Deficiency, shortness"
+        },
+        {
             "word": "Convict",
             "type": "v",
             "tr": "Mahkum etmek, tutuklamak, suçlamak",
@@ -3249,6 +3449,14 @@ const courseData = {
             "example": "The general has ordered a partial withdrawal of troops from the area.",
             "exampleTr": "General birliklerin bölgeden kısmen çekilmesini emretti.",
             "synonyms": "Incomplete"
+        },
+        {
+            "word": "Prior to",
+            "type": "prep",
+            "tr": "-den önce",
+            "example": "The weeks prior to her death were very difficult for the family.",
+            "exampleTr": "Ölümünden önceki haftalar ailesi için çok zordu.",
+            "synonyms": "Before"
         },
         {
             "word": "Overwhelming",
@@ -3875,6 +4083,22 @@ const courseData = {
             "synonyms": "Complaint"
         },
         {
+            "word": "Expose to",
+            "type": "v",
+            "tr": "Maruz bırakmak",
+            "example": "It is feared that people living near the power station may have been exposed to radiation.",
+            "exampleTr": "Nükleer santralin yakınında yaşayan insanların radyasyona maruz kalmış olabileceğinden korkuluyor.",
+            "synonyms": "Subject to, make liable"
+        },
+        {
+            "word": "Attribute to",
+            "type": "v",
+            "tr": "Atfetmek, -e bağlamak",
+            "example": "The doctors have attributed the cause of the illness to an unknown virus.",
+            "exampleTr": "Doktorlar hastalığın nedenini bilinmeyen bir virüse bağladı.",
+            "synonyms": "Ascribe, assign, refer, associate, connect"
+        },
+        {
             "word": "Hazard",
             "type": "n",
             "tr": "Tehlike",
@@ -4029,6 +4253,30 @@ const courseData = {
             "synonyms": "Anger, annoyance"
         },
         {
+            "word": "Vie for",
+            "type": "v",
+            "tr": "Yarışmak, mücadele etmek",
+            "example": "Six candidates are currently vying for the Democratic presidential nomination.",
+            "exampleTr": "Demokratların başkanlık adaylığı için şu anda 6 aday mücadele ediyor.",
+            "synonyms": "Compete, race"
+        },
+        {
+            "word": "Deprive of",
+            "type": "v",
+            "tr": "Yoksun bırakmak",
+            "example": "You can't function properly when you're deprived of sleep.",
+            "exampleTr": "Uykudan yoksun kaldığında normal hareket edemezsin.",
+            "synonyms": "Take away, be devoid of"
+        },
+        {
+            "word": "Compensate for",
+            "type": "v",
+            "tr": "Telafi etmek, bedelini ödemek",
+            "example": "The authorities promised to compensate for the price rise.",
+            "exampleTr": "Yetkililer fiyat artışını telafi edeceklerine söz verdiler.",
+            "synonyms": "Make up for"
+        },
+        {
             "word": "Desert",
             "type": "v",
             "tr": "Terketmek",
@@ -4157,6 +4405,14 @@ const courseData = {
             "example": "The captain's heroic effort inspired them with determination.",
             "exampleTr": "Kaptan’ın kahramanca çabaları onlara kararlı olmaları için ilham verdi.",
             "synonyms": "Motivate, encourage"
+        },
+        {
+            "word": "Abound in",
+            "type": "v",
+            "tr": "Bol, dolu, çok olmak",
+            "example": "Venice abounds in famous hotels.",
+            "exampleTr": "Venedik ünlü otellerle doludur.",
+            "synonyms": "Be plentiful, be rich in, teem with, multiply, flourish"
         },
         {
             "word": "Innate",
@@ -4319,6 +4575,14 @@ const courseData = {
             "example": "They are debating the topic of education right now.",
             "exampleTr": "Onlar şu anda eğitim konusunu tartışıyorlar.",
             "synonyms": "Discuss, argue, dispute"
+        },
+        {
+            "word": "Deter from",
+            "type": "v",
+            "tr": "Vazgeçirmek, caydırmak",
+            "example": "High prices are deterring many young people from buying houses.",
+            "exampleTr": "Yüksek fiyatlar birçok genç insanı ev almaktan caydırıyor.",
+            "synonyms": "Discourage, dissuade"
         },
         {
             "word": "Decent",
@@ -4505,6 +4769,14 @@ const courseData = {
             "example": "This road is quite busy compared to/with ours.",
             "exampleTr": "Bizimki ile karşılaştırıldığında bu yol oldukça yoğun.",
             "synonyms": "Match, relate, correspond"
+        },
+        {
+            "word": "Take sth. for granted",
+            "type": "v",
+            "tr": "Gerçek değerini vermemek, düşünmeden öyle olduğunu varsaymak",
+            "example": "I didn't realize that Melanie hadn't been to college - I suppose I just took it for granted.",
+            "exampleTr": "Melanie’nin üniversite okumadığını farketmedim. Sanırım okuduğunu düşündüm.",
+            "synonyms": "Assume, presume"
         },
         {
             "word": "Contest",
@@ -5269,6 +5541,22 @@ const courseData = {
             "synonyms": "Harvest, crop"
         },
         {
+            "word": "Comply with",
+            "type": "v",
+            "tr": "Uymak",
+            "example": "He had no choice but to comply with the rules.",
+            "exampleTr": "Kurallara uymaktan başka seçeneği yoktu.",
+            "synonyms": "Abide by, obey, conform to, stick to"
+        },
+        {
+            "word": "Stem from",
+            "type": "v",
+            "tr": "-den kaynaklanmak, ileri gelmek",
+            "example": "Their disagreement stemmed from a misunderstanding.",
+            "exampleTr": "Anlaşmazlıkları bir yanlış anlamadan kaynaklandı.",
+            "synonyms": "Arise from, develop out of, originate from"
+        },
+        {
             "word": "Will",
             "type": "n",
             "tr": "İrade, istek, vasiyet",
@@ -5405,6 +5693,14 @@ const courseData = {
             "example": "Smoking has caused irreversible damage to his lungs.",
             "exampleTr": "Sigara ciğerlerinde dönüşü olmayan zararlara yol açtı.",
             "synonyms": "Irreparable"
+        },
+        {
+            "word": "Embark on",
+            "type": "v",
+            "tr": "Başlamak",
+            "example": "We're embarking upon a new project later this year.",
+            "exampleTr": "Bu yılın ilerleyen dönemlerinde yeni bir projeye başlayacağız.",
+            "synonyms": "Start, initiate"
         },
         {
             "word": "Investigate",
@@ -5567,6 +5863,22 @@ const courseData = {
             "example": "",
             "exampleTr": "Sıkıntıya gelemiyorum.",
             "synonyms": "Stand, endure, tolerate"
+        },
+        {
+            "word": "Apt to",
+            "type": "adj",
+            "tr": "Eğilimli olmak, eğiliminde olmak",
+            "example": "The kitchen roof is apt to leak when it rains.",
+            "exampleTr": "Yağmur yağınca mutfağın çatısı büyük olasılıkla akar.",
+            "synonyms": "Likely, prone to, liable to, inclined to"
+        },
+        {
+            "word": "Compatible with",
+            "type": "adj",
+            "tr": "Uyumlu",
+            "example": "The new system will be compatible with existing equipment.",
+            "exampleTr": "Yeni sistem mevcut teçhizatla uyumlu olacak.",
+            "synonyms": "Harmonious"
         },
         {
             "word": "Cautious",
@@ -5745,6 +6057,14 @@ const courseData = {
             "example": "After a while her behaviour really began to irritate me.",
             "exampleTr": "Bir süre sonra davranışları gerçekten beni kızdırmaya başladı.",
             "synonyms": "Anger, annoy"
+        },
+        {
+            "word": "Adhere to",
+            "type": "v",
+            "tr": "Bağlı olmak, uymak",
+            "example": "She adhered to her principles throughout her life.",
+            "exampleTr": "Hayatı boyunca prensiplerine bağlı kalmıştır.",
+            "synonyms": "Stick to, be attached, comply with"
         },
         {
             "word": "Humble",
@@ -6045,6 +6365,14 @@ const courseData = {
             "example": "The cabin is of moderate size - just right for a small family.",
             "exampleTr": "Kabin orta büyüklükte, küçük bir aile için uygun.",
             "synonyms": "Mild, reasonable"
+        },
+        {
+            "word": "Interfere in / with",
+            "type": "v",
+            "tr": "-e karışmak, -e müdahale etmek, -e burnunu sokmak",
+            "example": "Interfering in other people's relationships is always a mistake.",
+            "exampleTr": "Diğer insanların ilişkilerine burnunu sokmak her zaman bir hatadır.",
+            "synonyms": "Intervene in"
         },
         {
             "word": "Overriding",
@@ -6517,6 +6845,38 @@ const courseData = {
             "synonyms": "Statue"
         },
         {
+            "word": "Approve of",
+            "type": "v",
+            "tr": "Onaylamak",
+            "example": "I thoroughly approve of what the government is doing.",
+            "exampleTr": "Hükümetin yaptıklarını tamamıyla onaylıyorum.",
+            "synonyms": "Support, endorse, back up, favor"
+        },
+        {
+            "word": "Confine to",
+            "type": "v",
+            "tr": "Sınırlamak",
+            "example": "Please confine your use of the telephone to business calls.",
+            "exampleTr": "Lütfen telefon kullanımınızı iş görüşmeleriyle sınırlandırın.",
+            "synonyms": "Limit, restrict"
+        },
+        {
+            "word": "Resort to",
+            "type": "v",
+            "tr": "(Son çare olarak) -e başvurmak",
+            "example": "He got hold of the money legally, without resorting to violence.",
+            "exampleTr": "Şiddete başvurmadan parayı yasal yollarla ele geçirdi.",
+            "synonyms": "Turn to, adopt"
+        },
+        {
+            "word": "Interfere with",
+            "type": "v",
+            "tr": "-e engel olmak",
+            "example": "Even a low level of noise interferes with my concentration.",
+            "exampleTr": "Az bir gürültü bile konsantrasyonumu engelliyor.",
+            "synonyms": "Prevent, inhibit"
+        },
+        {
             "word": "Revival",
             "type": "n",
             "tr": "Canlandırma, hayat verme",
@@ -6655,6 +7015,22 @@ const courseData = {
             "synonyms": "Dependability, trustworthiness"
         },
         {
+            "word": "Pertain to",
+            "type": "v",
+            "tr": "İle ilişkili olmak, -e ait olmak",
+            "example": "We are only interested in the proposals that pertain to local issues.",
+            "exampleTr": "Biz sadece yerel meseleler ile ilgili olan tekliflerle ilgileniyoruz.",
+            "synonyms": "Relate to, bear upon"
+        },
+        {
+            "word": "Persist in",
+            "type": "v",
+            "tr": "Israr etmek, devam etmek",
+            "example": "If the pain persists, consult a doctor.",
+            "exampleTr": "Eğer ağrı devam ederse bir doktora danış.",
+            "synonyms": "Persevere, continue"
+        },
+        {
             "word": "Retention",
             "type": "n",
             "tr": "Muhafaza etme, koruma",
@@ -6783,6 +7159,14 @@ const courseData = {
             "example": "There has been vigorous opposition to the proposals for a new road.",
             "exampleTr": "Yeni yol tekliflerine karşı güçlü bir muhalefet var.",
             "synonyms": "Powerful, energetic"
+        },
+        {
+            "word": "Dedicate to",
+            "type": "v",
+            "tr": "Adamak",
+            "example": "He has dedicated his life to scientific research.",
+            "exampleTr": "Hayatını bilimsel araştırmaya adadı.",
+            "synonyms": "Devote to"
         },
         {
             "word": "Violate",
@@ -7263,6 +7647,30 @@ const courseData = {
             "synonyms": "Requirement, precondition"
         },
         {
+            "word": "Take sth. into account",
+            "type": "v",
+            "tr": "Gözönüne almak, hesaba katmak",
+            "example": "You should take the difficulties of a private business into account before you embark on.",
+            "exampleTr": "Başlamadan önce özel bir girişimin zorluklarını göz önüne almalısın.",
+            "synonyms": "Consider"
+        },
+        {
+            "word": "Condemn",
+            "type": "v",
+            "tr": "Kınamak, yermek",
+            "example": "The terrorist actions have been condemned.",
+            "exampleTr": "Terör eylemleri kınandı.",
+            "synonyms": "Denounce"
+        },
+        {
+            "word": "Detriment",
+            "type": "n",
+            "tr": "Zarar, ziyan",
+            "example": "Are you sure that I can follow this diet without detriment to my health?",
+            "exampleTr": "Bu diyeti sağlığıma zarar vermeden uygulayabileceğime emin misiniz?",
+            "synonyms": "Harm, damage"
+        },
+        {
             "word": "Sporadic",
             "type": "adj",
             "tr": "Aralıklı, arasıra meydana gelen",
@@ -7505,6 +7913,14 @@ const courseData = {
             "synonyms": "Legacy, inheritance"
         },
         {
+            "word": "Abstain from",
+            "type": "v",
+            "tr": "Çekimser kalmak, uzak durmak, -den kaçınmak",
+            "example": "The doctor advised him that he abstain from cakes and sweets.",
+            "exampleTr": "Doktor şeker ve tatlıdan uzak durmasını tavsiye etti.",
+            "synonyms": "Refrain from, avoid"
+        },
+        {
             "word": "Hardly",
             "type": "adv",
             "tr": "Hemen hemen hiç, neredeyse hiç, zar zor, güç bela",
@@ -7715,6 +8131,22 @@ const courseData = {
             "example": "",
             "exampleTr": "O benim için tamamen bir yük.",
             "synonyms": "Load, strain"
+        },
+        {
+            "word": "Deal with",
+            "type": "v",
+            "tr": "Başetmek, ele almak",
+            "example": "Her new film deals with the relationship between a woman and her sick daughter.",
+            "exampleTr": "Yeni filmi bir kadın ile hasta kızı arasındaki ilişkiyi ele alıyor.",
+            "synonyms": "Cope with, handle, tackle"
+        },
+        {
+            "word": "Stick to",
+            "type": "v",
+            "tr": "Bağlı kalmak, yapışık olmak",
+            "example": "Don’t worry! We’ll stick to the agreement.",
+            "exampleTr": "Endişelenmeyin. Anlaşmaya sadık kalacağız.",
+            "synonyms": "Abide by, comply with, adhere to"
         },
         {
             "word": "Assert",

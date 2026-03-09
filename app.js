@@ -144,6 +144,11 @@ function loadLearnWord() {
 
     const prevBtn = document.getElementById('prevBtn');
     prevBtn.style.visibility = (state.learnIndex === 0) ? 'hidden' : 'visible';
+
+    const counter = document.getElementById('learn-counter');
+    if (counter) {
+        counter.textContent = `${state.learnIndex + 1} / ${state.words.length}`;
+    }
 }
 
 // --- AŞAMA 2 & 3: EŞLEŞTİRME (HATA TAKİPLİ) ---
@@ -245,6 +250,11 @@ function loadQuizWord() {
     document.getElementById('stage-4').classList.remove('hidden');
     const wordObj = state.words[state.quizIndex];
     document.getElementById('quiz-word').textContent = wordObj.word;
+
+    const counter = document.getElementById('quiz-counter');
+    if (counter) {
+        counter.textContent = `${state.quizIndex + 1} / ${state.words.length}`;
+    }
     
     const quizSpeakBtn = document.getElementById('quizSpeakBtn');
     quizSpeakBtn.onclick = () => {
